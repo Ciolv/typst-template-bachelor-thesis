@@ -6,9 +6,7 @@ It is intended to be used as a template for the bachelor thesis at the computing
 If you intend to use the template, please double-check its accordance with the guidelines, there might be a newer version!  
 
 The template is created for a thesis in German, but provides most of its content in English as well when `language: "en"` is set.  
-Adopting to another language should be straightforward, if you have some experience with Typst or programming in general.
-
-The layout is inspired by [DHBW LaTeX Template](https://github.com/pfisterer/DHBW_LaTeX_Template).
+Adopting to another language should be straightforward, if you have some experience with Typst or programming in general.  
 
 ## Usage
 
@@ -39,7 +37,7 @@ For a project in German or English, the config parameters in `main.typ` should b
 
 `title`: Provide the title string, to print it to the title page.  
 
-`authors`: Only one author is supported by this template. Every value set to `none` will not be displayed on the title page. 
+`authors`: Only one author is supported by this template. Every value set to `none` will not be displayed on the title page.  
 ```typ
 authors: (
   (
@@ -96,3 +94,8 @@ outlines: (
 `bibliography-style`: Bibliography / citation style for your thesis. See [bibliography documentation](https://typst.app/docs/reference/meta/bibliography/#parameters--style) for supported styles.  
 
 **Don't forget to add `doc` at the end of the parameter list, as seen in `main.typ`.**
+
+## Credits  
+
+The layout is inspired by [DHBW LaTeX Template](https://github.com/pfisterer/DHBW_LaTeX_Template).  
+The `acronym.typ` functions are inspired by [jnlmmln](https://github.com/jnlmmln)'s [issue comment](https://github.com/typst/typst/issues/659#issuecomment-1517902585).  
